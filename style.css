@@ -1,0 +1,23 @@
+body {
+font-family: 'Mountains of Christmas';
+font-weight: 1000;
+text-align: center;
+background-image: url(https://t4.ftcdn.net/jpg/02/33/46/41/360_F_233464107_YKIINRsKd44DmV5fT2n7sgbFVGNNY1Kw.jpg);
+color: white;
+}
+header {
+  font-size: 100px;
+}
+.stroked {
+  color: white;
+  -webkit-text-stroke: 3px black;
+}
+.popout-img {
+  transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10); 
+}
+.popout-img:hover{
+  transform: scale(1.50);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.20);
+  z-index: 2;
+}
